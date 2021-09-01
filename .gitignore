@@ -75,3 +75,9 @@ DerivedDataCache/*
 
 
 Saved/*
+
+# Исключаю все накачанные ассеты, т.к. на гитхабе возможно держать репозиторий не больше 1ГБ
+Content/*
+!Content/Environment/*
+!Content/FirstPerson/*
+!Content/FirstPersonBP/*
